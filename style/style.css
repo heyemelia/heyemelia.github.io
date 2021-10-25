@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+*{
+    box-sizing: border-box;
+}
+.jumbo1{
+    background-image: url(https://images.pexels.com/photos/1037994/pexels-photo-1037994.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+.carousel-inner > .coursel-item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.d-block {
+    display: block!important;
+}
+.w-100 {
+    width: 100%!important;
+}
+
+
+    
+img, svg {
+    vertical-align: middle;
+}
+.p-5 {
+    padding: 3
+rem
+!important;
+}
+.mb-5 {
+    margin-bottom: 3
+rem
+!important;
+}
+.mt-5 {
+    margin-top: 3
+rem
+!important;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+.d-flex {
+    display: flex!important;
+}
+
+footer{
+    margin-top: auto;
+    background-color: pink;
+    display: flex;
+}
+.fab{
+    color: crimson;
+    size: 95px;
+    font-size: 27px;
+    width: 60px
+}
