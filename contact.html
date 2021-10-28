@@ -5,27 +5,125 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Airtable Form Example</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Pacifico&family=Varela+Round&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1e4a753be2.js" crossorigin="anonymous"></script>
+    <link rel= "icon" href = "img/icons8-spa-flower-32.png">
     <script src="./airtable.browser.js"></script>
     <script src="./app.js"></script>
 </head>
 <body>
+    <div class= "container-fluid">
+        <!-- Nav -->
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">¡Hola!</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                My Projects!
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="https://sci-ficaper.bandcamp.com/" target="_blank">Sci-Fi Caper</a>
+                                <a class="dropdown-item" href="https://sleepyghostrecords.bandcamp.com/album/reptile-boy" target="_blank">The Sunnydales</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="https://anchor.fm/kayfabe-queens" target="_blank">Kayfabe Queens</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+        <!-- jumbotron -->
+        <div class="row">
+            <div class="jumbo1 jumbotron jumbotron-fluid col text-center align-middle">
+                <div class="container">
+                  <h1 class="display-4">Bienvenidos, my name is <br>Emelia Cynthia Guadarrama</h1><br>
+                  <p>This is my page! There isn't much here but I hope you like pink because there is going to be a whole lot of it!</p>
+               
+                </div>
+              </div>
+        </div>
 
-    <!-- <form id='contactForm' action="javascript:void(0);" onsubmit="handleSubmit('contactForm')">
+         <!-- contact form -->
+    <form id='contactForm' action="javascript:void(0);" onsubmit="handleSubmit('contactForm')">
         <label for="name">Name</label>
-        <input id="name" type="text" name="name" placeholder="John Doe">
+        <input id="name" type="text" name="name" placeholder="Oogie Boogie">
         
         <label for="email">Email</label>
-        <input id="email" type="email" name="email" placeholder="john@example.com">
+        <input id="email" type="email" name="email" placeholder="oogboog@spooptown.com">
 
         <label for="cell">Cell</label>
-        <input id="cell" type="tel" name="cell" placeholder="1 555 555 5555">
+        <input id="cell" type="tel" name="cell" placeholder="1 666 666 6666">
 
-        <label for="reason">Reason for Contacting</label>
+        <label for="reason">What is the meaning of life?</label>
         <textarea id="reason" name="reason" placeholder="We've been trying to reach you about your car's extended warranty..."></textarea>
         
         <input type="submit" value="Submit">
-    </form> -->
+    </form>
+
+    <!-- Footer -->
+    <div class="page-footer font-small special-color-dark pt-4">
+        <!-- Footer Elements -->
+          <div class="col">
+              <!-- Social buttons -->
+              <ul class="list-unstyled list-inline text-center">
+                  <li class="list-inline-item">
+                  <a href="https://www.instagram.com/daftpansy/" target="_blank">
+                      <i class="fab fa-instagram"></i>
+                  <!-- </a> -->
+                   </a>
+                  </li>
+                  <li class="list-inline-item">
+                   <a href="https://twitter.com/daftpansy" target="_blank">
+                   <i class="fab fa-twitter"> </i>
+                   </a>
+                  </li>
+                  <li class="list-inline-item">
+                      <a href="https://github.com/heyemelia" target="_blank">
+                      <i class="fab fa-github"></i>
+                  </a>
+                  </li>
+                  <li class="list-inline-item">
+                      <a href="https://www.linkedin.com/in/emelia-guadarrama-9417a215a/" target="_blank">
+                      <i class="fab fa-linkedin-in"> </i>
+                  </a>
+                  </li>
+                  <li class="list-inline-item">
+                  <a href="https://dribbble.com/hey_emelia" target="_blank">
+                   <i class="fab fa-dribbble"> </i>
+                  </a>
+                  </li>
+              </ul>
+              <!-- Social buttons -->
+              </div>
+        <!-- Footer Elements -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright: Emelia C Guadarrama
+        </div>
+        <a href="https://icons8.com/icon/N3GWCym-GQwE/flower-doodle">Flower Doodle icon by Icons8</a>
+        <!-- Copyright -->
+        </div>
+        <!-- Footer -->    
+    </div>
 
 </body>
 </html>

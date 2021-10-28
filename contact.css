@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Jumbotron */
+.jumbo1{
+    background-image: url(https://images.pexels.com/photos/1037994/pexels-photo-1037994.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+}
+
+p{
+    font-family: 'Varela Round', sans-serif; 
+}
+
+.img-thumbnail{
+    shape-outside: ellipse();   
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-color: #ffc0cb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-flow: column nowrap;
+    background: #fff;
+    padding: 40px;
+    border-radius: 6px;
+}
+
+input, textarea{
+    margin-bottom: 25px;
+    padding: 8px;
+    border: 2px solid #ffc0cb;
+    border-radius: 6px;
+    width:300px;
+}
+
+input:last-of-type{
+    margin-bottom: 0;
+}
+
+label{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0,0,0,.6);
+    margin-bottom: 2px;
+}
+
+input[type=submit]{
+    background-color: #c366ee;
+    color:white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 100px;
+    transition: outline-offset .05s;
+    cursor: pointer;
+    outline: 2px solid #c366ee;
+    outline-offset: -1px;
+}
+
+input[type=submit]:hover{
+    outline-offset: 2px;
+}
+
+textarea{
+    resize: vertical;
+    min-height: 100px;
+}
+/* footer */
+footer{
+    margin-top: auto;
+    background-color: pink;
+    display: flex;
+}
+.fab{
+    color: crimson;
+    size: 95px;
+    font-size: 27px;
+    width: 60px
+}
